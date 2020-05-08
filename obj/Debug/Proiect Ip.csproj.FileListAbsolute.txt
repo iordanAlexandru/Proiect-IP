@@ -1,0 +1,9 @@
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect Ip.csprojAssemblyReference.cache
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect_Ip.Form1.resources
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect_Ip.Properties.Resources.resources
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect Ip.csproj.GenerateResource.cache
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\bin\Debug\Proiect Ip.exe.config
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\bin\Debug\Proiect Ip.exe
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\bin\Debug\Proiect Ip.pdb
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect Ip.exe
+C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect Ip.pdb
