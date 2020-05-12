@@ -55,5 +55,10 @@ namespace Proiect_Ip
         {
             ActiveControl = (Control)sender;
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
