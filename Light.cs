@@ -8,13 +8,13 @@ namespace Proiect_Ip
 {
     class Light
     {
-		public virtual void on()
+		public virtual String on()
 		{
-			Console.WriteLine("S-a aprins lumina");
+			return "S-a aprins lumina";
 		}
-		public virtual void off()
+		public virtual String off()
 		{
-			Console.WriteLine("S-a stins lumina");
+			return "S-a stins lumina";
 		}
 	}
 }

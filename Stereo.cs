@@ -8,25 +8,25 @@ namespace Proiect_Ip
 {
     class Stereo
     {
-		public virtual void on()
+		public virtual String on()
 		{
-			Console.WriteLine("Boxele sunt pornite");
+			return "Boxele sunt pornite";
 		}
-		public virtual void off()
+		public virtual String off()
 		{
-			Console.WriteLine("Boxele sunt oprite");
+			return "Boxele sunt oprite";
 		}
-		public virtual void setCD()
+		public virtual String setCD()
 		{
-			Console.WriteLine("Boxele citesc fisiere media de pe  " + "CD");
+			return "Boxele citesc fisiere media de pe  " + "CD";
 		}
-		public virtual void setDVD()
+		public virtual String setDVD()
 		{
-			Console.WriteLine("Boxele citesc fisiere media de pe  " + " DVD");
+			return "Boxele citesc fisiere media de pe  " + " DVD";
 		}
-		public virtual void setRadio()
+		public virtual String setRadio()
 		{
-			Console.WriteLine("Boxele sunt conectate la" + " Radio");
+			return "Boxele sunt conectate la" + " Radio";
 		}
 		public virtual int Volume
 		{

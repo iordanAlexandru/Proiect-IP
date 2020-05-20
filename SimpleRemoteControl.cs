@@ -11,8 +11,7 @@ namespace Proiect_Ip
 		internal Command slot; // only one button
 
 		public SimpleRemoteControl()
-		{
-		}
+		{}
 
 		public virtual Command Command
 		{
@@ -24,9 +23,9 @@ namespace Proiect_Ip
 			}
 		}
 
-		public virtual void buttonWasPressed()
+		public virtual String buttonWasPressed()
 		{
-			slot.Execute();
+			return slot.Execute();
 		}
 	}
 }

@@ -13,9 +13,9 @@ namespace Proiect_Ip
 		{
 			this.stereo = stereo;
 		}
-		public virtual void Execute()
+		public virtual String Execute()
 		{
-			stereo.off();
+			return stereo.off();
 		}
 	}
 }

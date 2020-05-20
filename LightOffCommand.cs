@@ -13,9 +13,9 @@ namespace Proiect_Ip
 		{
 			this.light = light;
 		}
-		public virtual void Execute()
+		public virtual String Execute()
 		{
-			light.off();
+			return light.off();
 		}
 	}
 }

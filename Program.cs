@@ -14,17 +14,6 @@ namespace Proiect_Ip
         [STAThread]
         static void Main()
         {
-            SimpleRemoteControl remote = new SimpleRemoteControl();
-            Light light = new Light();
-            Stereo stereo = new Stereo();
-
-            // we can change command dynamically 
-            remote.Command = new LightOnCommand(light);
-            remote.buttonWasPressed();
-            remote.Command = new StereoOnWithCDCommand(stereo);
-            remote.buttonWasPressed();
-            remote.Command = new StereoOffCommand(stereo);
-            remote.buttonWasPressed();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

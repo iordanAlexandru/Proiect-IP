@@ -28,98 +28,93 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.lightsButton = new System.Windows.Forms.Button();
+            this.tvButton = new System.Windows.Forms.Button();
+            this.garageButton = new System.Windows.Forms.Button();
+            this.speakersButton = new System.Windows.Forms.Button();
+            this.gatesButton = new System.Windows.Forms.Button();
+            this.windowsButton = new System.Windows.Forms.Button();
+            this.logsArea = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.undoButton = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.onOffButton = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // button1
+            // lightsButton
             // 
-            this.button1.Location = new System.Drawing.Point(12, 129);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Lights";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.lightsButton.Enabled = false;
+            this.lightsButton.Location = new System.Drawing.Point(12, 73);
+            this.lightsButton.Name = "lightsButton";
+            this.lightsButton.Size = new System.Drawing.Size(107, 49);
+            this.lightsButton.TabIndex = 0;
+            this.lightsButton.Text = "Lights";
+            this.lightsButton.UseVisualStyleBackColor = true;
+            this.lightsButton.Click += new System.EventHandler(this.lightsButton_click);
             // 
-            // button2
+            // tvButton
             // 
-            this.button2.Location = new System.Drawing.Point(93, 129);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "TV";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.tvButton.Enabled = false;
+            this.tvButton.Location = new System.Drawing.Point(136, 73);
+            this.tvButton.Name = "tvButton";
+            this.tvButton.Size = new System.Drawing.Size(110, 49);
+            this.tvButton.TabIndex = 1;
+            this.tvButton.Text = "TV";
+            this.tvButton.UseVisualStyleBackColor = true;
+            this.tvButton.Click += new System.EventHandler(this.tvButton_Click);
             // 
-            // button3
+            // garageButton
             // 
-            this.button3.Location = new System.Drawing.Point(93, 176);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Garage";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.garageButton.Enabled = false;
+            this.garageButton.Location = new System.Drawing.Point(136, 132);
+            this.garageButton.Name = "garageButton";
+            this.garageButton.Size = new System.Drawing.Size(110, 54);
+            this.garageButton.TabIndex = 2;
+            this.garageButton.Text = "Garage";
+            this.garageButton.UseVisualStyleBackColor = true;
+            this.garageButton.Click += new System.EventHandler(this.garageButton_Click);
             // 
-            // button4
+            // speakersButton
             // 
-            this.button4.Location = new System.Drawing.Point(12, 176);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Speakers";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.speakersButton.Enabled = false;
+            this.speakersButton.Location = new System.Drawing.Point(12, 132);
+            this.speakersButton.Name = "speakersButton";
+            this.speakersButton.Size = new System.Drawing.Size(107, 54);
+            this.speakersButton.TabIndex = 3;
+            this.speakersButton.Text = "Speakers";
+            this.speakersButton.UseVisualStyleBackColor = true;
+            this.speakersButton.Click += new System.EventHandler(this.speakersButton_Click);
             // 
-            // button5
+            // gatesButton
             // 
-            this.button5.Location = new System.Drawing.Point(93, 223);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Gates";
-            this.button5.UseVisualStyleBackColor = true;
+            this.gatesButton.Enabled = false;
+            this.gatesButton.Location = new System.Drawing.Point(136, 196);
+            this.gatesButton.Name = "gatesButton";
+            this.gatesButton.Size = new System.Drawing.Size(110, 49);
+            this.gatesButton.TabIndex = 4;
+            this.gatesButton.Text = "Gates";
+            this.gatesButton.UseVisualStyleBackColor = true;
+            this.gatesButton.Click += new System.EventHandler(this.gatesButton_Click);
             // 
-            // button6
+            // windowsButton
             // 
-            this.button6.Location = new System.Drawing.Point(12, 223);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Windows";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.windowsButton.Enabled = false;
+            this.windowsButton.Location = new System.Drawing.Point(12, 196);
+            this.windowsButton.Name = "windowsButton";
+            this.windowsButton.Size = new System.Drawing.Size(107, 49);
+            this.windowsButton.TabIndex = 5;
+            this.windowsButton.Text = "Windows";
+            this.windowsButton.UseVisualStyleBackColor = true;
+            this.windowsButton.Click += new System.EventHandler(this.windowsButton_Click);
             // 
-            // textBox1
+            // logsArea
             // 
-            this.textBox1.Location = new System.Drawing.Point(4, 349);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 123);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(110, 42);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(58, 17);
-            this.radioButton2.TabIndex = 8;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "On/Off";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.logsArea.Location = new System.Drawing.Point(4, 349);
+            this.logsArea.Multiline = true;
+            this.logsArea.Name = "logsArea";
+            this.logsArea.Size = new System.Drawing.Size(242, 230);
+            this.logsArea.TabIndex = 6;
+            this.logsArea.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -130,41 +125,55 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Logs";
             // 
-            // button7
+            // undoButton
             // 
-            this.button7.Location = new System.Drawing.Point(93, 305);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Undo";
-            this.button7.UseVisualStyleBackColor = true;
+            this.undoButton.Enabled = false;
+            this.undoButton.Location = new System.Drawing.Point(149, 294);
+            this.undoButton.Name = "undoButton";
+            this.undoButton.Size = new System.Drawing.Size(97, 34);
+            this.undoButton.TabIndex = 10;
+            this.undoButton.Text = "Undo";
+            this.undoButton.UseVisualStyleBackColor = true;
+            this.undoButton.Click += new System.EventHandler(this.undoButton_Click);
             // 
-            // button8
+            // clearButton
             // 
-            this.button8.Location = new System.Drawing.Point(12, 305);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Clear";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.clearButton.Enabled = false;
+            this.clearButton.Location = new System.Drawing.Point(12, 294);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(93, 34);
+            this.clearButton.TabIndex = 11;
+            this.clearButton.Text = "Clear";
+            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
+            // 
+            // onOffButton
+            // 
+            this.onOffButton.AutoSize = true;
+            this.onOffButton.Location = new System.Drawing.Point(172, 23);
+            this.onOffButton.Name = "onOffButton";
+            this.onOffButton.Size = new System.Drawing.Size(59, 17);
+            this.onOffButton.TabIndex = 12;
+            this.onOffButton.Text = "On/Off";
+            this.onOffButton.UseVisualStyleBackColor = true;
+            this.onOffButton.CheckedChanged += new System.EventHandler(this.onOffButton_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(173, 479);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
+            this.ClientSize = new System.Drawing.Size(258, 591);
+            this.Controls.Add(this.onOffButton);
+            this.Controls.Add(this.clearButton);
+            this.Controls.Add(this.undoButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.logsArea);
+            this.Controls.Add(this.windowsButton);
+            this.Controls.Add(this.gatesButton);
+            this.Controls.Add(this.speakersButton);
+            this.Controls.Add(this.garageButton);
+            this.Controls.Add(this.tvButton);
+            this.Controls.Add(this.lightsButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -174,17 +183,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Button lightsButton;
+        private System.Windows.Forms.Button tvButton;
+        private System.Windows.Forms.Button garageButton;
+        private System.Windows.Forms.Button speakersButton;
+        private System.Windows.Forms.Button gatesButton;
+        private System.Windows.Forms.Button windowsButton;
+        private System.Windows.Forms.TextBox logsArea;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button undoButton;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.CheckBox onOffButton;
     }
 }
 

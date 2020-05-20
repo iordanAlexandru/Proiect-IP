@@ -7,3 +7,21 @@ C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\bin\Debug\Proiect Ip.exe
 C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\bin\Debug\Proiect Ip.pdb
 C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect Ip.exe
 C:\Users\Ali-PC\source\repos\Proiect Ip\Proiect Ip\obj\Debug\Proiect Ip.pdb
+C:\Users\george\Desktop\Proiect-IP-master\bin\Debug\Proiect Ip.exe.config
+C:\Users\george\Desktop\Proiect-IP-master\obj\Debug\Proiect Ip.exe
+C:\Users\george\Desktop\Proiect-IP-master\obj\Debug\Proiect Ip.pdb
+C:\Users\george\Desktop\Proiect-IP-master\bin\Debug\Proiect Ip.exe
+C:\Users\george\Desktop\Proiect-IP-master\bin\Debug\Proiect Ip.pdb
+C:\Users\george\Desktop\Proiect-IP-master\obj\Debug\Proiect Ip.csprojResolveAssemblyReference.cache
+C:\Users\george\Desktop\Proiect-IP-master\obj\Debug\Proiect_Ip.Form1.resources
+C:\Users\george\Desktop\Proiect-IP-master\obj\Debug\Proiect_Ip.Properties.Resources.resources
+C:\Users\george\Desktop\Proiect-IP-master\obj\Debug\Proiect Ip.csproj.GenerateResource.Cache
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\bin\Debug\Proiect Ip.exe.config
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\bin\Debug\Proiect Ip.exe
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\bin\Debug\Proiect Ip.pdb
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.csprojAssemblyReference.cache
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect_Ip.Form1.resources
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect_Ip.Properties.Resources.resources
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.csproj.GenerateResource.cache
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.exe
+C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.pdb

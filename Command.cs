@@ -8,6 +8,6 @@ namespace Proiect_Ip
 {
     interface Command
     {
-        void Execute();
+        String Execute();
     }
 }
