@@ -36,9 +36,9 @@
             this.windowsButton = new System.Windows.Forms.Button();
             this.logsArea = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.undoButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.onOffButton = new System.Windows.Forms.CheckBox();
+            this.exc_but = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lightsButton
@@ -125,23 +125,12 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Logs";
             // 
-            // undoButton
-            // 
-            this.undoButton.Enabled = false;
-            this.undoButton.Location = new System.Drawing.Point(149, 294);
-            this.undoButton.Name = "undoButton";
-            this.undoButton.Size = new System.Drawing.Size(97, 34);
-            this.undoButton.TabIndex = 10;
-            this.undoButton.Text = "Undo";
-            this.undoButton.UseVisualStyleBackColor = true;
-            this.undoButton.Click += new System.EventHandler(this.undoButton_Click);
-            // 
             // clearButton
             // 
             this.clearButton.Enabled = false;
-            this.clearButton.Location = new System.Drawing.Point(12, 294);
+            this.clearButton.Location = new System.Drawing.Point(24, 284);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(93, 34);
+            this.clearButton.Size = new System.Drawing.Size(75, 46);
             this.clearButton.TabIndex = 11;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
@@ -158,14 +147,25 @@
             this.onOffButton.UseVisualStyleBackColor = true;
             this.onOffButton.CheckedChanged += new System.EventHandler(this.onOffButton_CheckedChanged);
             // 
+            // exc_but
+            // 
+            this.exc_but.Enabled = false;
+            this.exc_but.Location = new System.Drawing.Point(156, 284);
+            this.exc_but.Name = "exc_but";
+            this.exc_but.Size = new System.Drawing.Size(75, 46);
+            this.exc_but.TabIndex = 13;
+            this.exc_but.Text = "Exc Gen";
+            this.exc_but.UseVisualStyleBackColor = true;
+            this.exc_but.Click += new System.EventHandler(this.button_exc);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(258, 591);
+            this.Controls.Add(this.exc_but);
             this.Controls.Add(this.onOffButton);
             this.Controls.Add(this.clearButton);
-            this.Controls.Add(this.undoButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.logsArea);
             this.Controls.Add(this.windowsButton);
@@ -191,9 +191,9 @@
         private System.Windows.Forms.Button windowsButton;
         private System.Windows.Forms.TextBox logsArea;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button undoButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.CheckBox onOffButton;
+        private System.Windows.Forms.Button exc_but;
     }
 }
 

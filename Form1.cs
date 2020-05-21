@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System;
 using System.Collections;
 
 namespace Proiect_Ip
@@ -160,7 +159,7 @@ namespace Proiect_Ip
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-            this.logsArea.Text = "";
+            this.logsArea.Text = "-------- Telecomanda Universala Activata --------";
         }
         // comanda o am setata in butoane
         // preiau comanda si o trimit prin simpleremotecontrol
@@ -182,9 +181,8 @@ namespace Proiect_Ip
             this.windowsButton.Enabled = enabled;
             this.logsArea.Enabled = enabled;
             this.label1.Enabled = enabled;
-            this.undoButton.Enabled = enabled;
             this.clearButton.Enabled = enabled;
-
+            this.exc_but.Enabled = enabled;
             this.lightsButton.BackColor = Color.Red;
             this.tvButton.BackColor = Color.Red;
             this.garageButton.BackColor = Color.Red;
@@ -210,5 +208,32 @@ namespace Proiect_Ip
             
             //logsArea.Text = setCommandAndPress(myStack.Pop());
         }
+        double a = 98;
+        double result = 0;
+        public int RandomNumber(int min, int max)
+        {
+            Random random = new Random();
+            return random.Next(min, max);
+        }
+        private void button_exc(object sender, EventArgs e)
+        {
+
+            int b = RandomNumber(-1, 1);
+            try
+            {
+                if (b == 0)
+                {
+                    throw new System.DivideByZeroException();
+                }
+                this.logsArea.Text = "Of, se pare ca nu am nimic de facut. E liniste si pace pe aici";
+                result = a/b;
+                //this.logsArea.Text = result.ToString();
+            }
+            catch (DivideByZeroException)
+            {
+                this.logsArea.Text= "Am prins o exceptie ! O tin bine ca sa nu-ti crape programul";
+            }
+        }
+
     }
 }
