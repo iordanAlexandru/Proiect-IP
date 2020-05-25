@@ -13,21 +13,25 @@ namespace Proiect_Ip
 {
     public partial class Form1 : Form
     {
+        //incercare de implementare a unei stive de mesaje pentru metoda UNDO
         Stack myStack = new Stack();
+        //initializare command
         Command command = null;
+        //invoker al claselor Light, Stereo, Garage
         SimpleRemoteControl remote = new SimpleRemoteControl();
 
         public Form1()
         {
             InitializeComponent();
         }
-
+        /*
         private void button1_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
             ActiveControl.Focus();
             SendKeys.Send(btn.Text);
         }
+        */
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -39,18 +43,24 @@ namespace Proiect_Ip
         {
             if (this.lightsButton.BackColor != Color.Green)
             {
+                // creem o noua entitate tip light
                 Light light = new Light();
+                // comanda preia o entitate de tip LightOnCommand care are un obiect de tip light
                 this.command = new LightOnCommand(light);
-                  
+                //apelam invokerul care preia comanda si "apasa butonul"
                 setCommandAndPress(command);
+                //facem backgroundul verde pentru a sti ce functionalitate este pornita
                 this.lightsButton.BackColor = Color.Green;
                 myStack.Push(command);
             }
             else if (this.lightsButton.BackColor == Color.Green)
             {
                 Light light = new Light();
+                //comanda preia o entitate de tip LightOffCommand care contine textul pe care-l vom pune in textarea
                 this.command = new LightOffCommand(light);
+                // apelez invoker
                 setCommandAndPress(command);
+                //backgroundul revine la culoarea rosie => este oprita functionalitatea
                 this.lightsButton.BackColor = Color.Red;
                 myStack.Push(command);
             }
@@ -60,7 +70,14 @@ namespace Proiect_Ip
         {
             if (this.tvButton.BackColor != Color.Green)
             {
+                //creare iteme ad-hoc.
+                //Aceasta functionalitate este implementata cu OpenCloseItem
+                //  metoda care faciliteaza crearea de obiecte noi si integrarea acestora
+                //  in design pattern-ul command. Acestea impartasesc aceleasi metode
+                //  ItemClose si ItemOpen care au la baza un obiect de tipul OpenCloseItem
+                //  la restul claselor putem adauga metode particulare -> speaker/stereo
                 OpenCloseItem television = new OpenCloseItem("Televizorul");
+
                 this.command = new ItemOpenCommand(television);
                 setCommandAndPress(command);
                 
@@ -168,7 +185,7 @@ namespace Proiect_Ip
             remote.Command = command;
             this.logsArea.Text = this.logsArea.Text + Environment.NewLine + remote.buttonWasPressed();
         }
-
+        //buton on/off care inchide / deschide telecomanda
         private void onOffButton_CheckedChanged(object sender, EventArgs e)
         {
             Boolean enabled = this.onOffButton.Checked;
@@ -189,7 +206,7 @@ namespace Proiect_Ip
             this.speakersButton.BackColor = Color.Red;
             this.gatesButton.BackColor = Color.Red;
             this.windowsButton.BackColor = Color.Red;
-
+            // daca apas pe butonul de Off ->
             if (enabled == false)
             {
                 this.logsArea.Text = "";
@@ -210,6 +227,8 @@ namespace Proiect_Ip
         }
         double a = 98;
         double result = 0;
+
+        //metoda generare exceptii (Divide by 0)
         public int RandomNumber(int min, int max)
         {
             Random random = new Random();

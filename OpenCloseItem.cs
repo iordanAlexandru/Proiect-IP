@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Proiect_Ip
 {
+
+    //invoker clase ad-hoc
     class OpenCloseItem
     {
         String itemName;
 
+        //Instanta a clasei OpenCloseItem ia numele obiectului care urmeaza sa se inchida / deschida
         public OpenCloseItem (String itemName)
         {
             this.itemName = itemName;

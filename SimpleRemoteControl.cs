@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Proiect_Ip
-{
+{ // invoker
     class SimpleRemoteControl
     {
-		internal Command slot; // only one button
+		internal Command slot; //butonul
 
 		public SimpleRemoteControl()
 		{}
@@ -17,8 +17,7 @@ namespace Proiect_Ip
 		{
 			set
 			{
-				// set the value the remote will 
-				// execute 
+				//setez valoarea butonului pe care il voi executa
 				slot = value;
 			}
 		}

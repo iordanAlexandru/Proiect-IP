@@ -18,7 +18,7 @@ namespace Proiect_Ip
 		}
 		public virtual String setCD()
 		{
-			return "Boxele citesc fisiere media de pe  " + "CD";
+			return "L-am bagat pe Hrușcă la " + "CD";
 		}
 		public virtual String setDVD()
 		{
@@ -28,13 +28,9 @@ namespace Proiect_Ip
 		{
 			return "Boxele sunt conectate la" + " Radio";
 		}
-		public virtual int Volume
+		public virtual String setVolume(int volume)
 		{
-			set
-			{
-				// code to set the value 
-				Console.WriteLine("Volumul boxelor este setat" + " la " + value);
-			}
+			return "Volumul boxelor este setat la " + volume;
 		}
 	}
 }

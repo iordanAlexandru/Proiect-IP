@@ -15,9 +15,8 @@ namespace Proiect_Ip
 		}
 		public virtual String Execute()
 		{
-            stereo.Volume = 11;
-
-            String text = stereo.on() + Environment.NewLine + stereo.setCD();
+			//aici putem schimba in setDVD / setRadio / etc
+            String text = stereo.on() + Environment.NewLine + stereo.setCD() + Environment.NewLine + stereo.setVolume(64);
             return text;
 		}
 	}
