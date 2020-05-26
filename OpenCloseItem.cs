@@ -11,7 +11,7 @@ namespace Proiect_Ip
 {
 
     //invoker clase ad-hoc
-    class OpenCloseItem
+    public class OpenCloseItem
     {
         String itemName;
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class Stereo
+    public class Stereo
     {
 		public virtual String on()
 		{

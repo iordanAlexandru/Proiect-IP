@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class Light
+    public class Light
     {
 		public virtual String on()
 		{

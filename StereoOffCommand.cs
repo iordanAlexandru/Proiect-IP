@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class StereoOffCommand : Command
+    public class StereoOffCommand : Command
 	{
 		internal Stereo stereo;
 		public StereoOffCommand(Stereo stereo)

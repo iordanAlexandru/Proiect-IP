@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class GarageDoorDownCommand : Command
+    public class GarageDoorDownCommand : Command
     {
         GarageDoor garageDoor;
         public GarageDoorDownCommand(GarageDoor garageDoor)

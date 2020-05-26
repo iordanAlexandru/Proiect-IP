@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class LightOnCommand : Command
+    public class LightOnCommand : Command
 	{
 			internal Light light;
 			public LightOnCommand(Light light)

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class LightOffCommand : Command
+    public class LightOffCommand : Command
     {
 		internal Light light;
 		public LightOffCommand(Light light)

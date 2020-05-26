@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  */
 namespace Proiect_Ip
 {
-    class GarageDoor
+    public class GarageDoor
     {
         public virtual String up()
         {

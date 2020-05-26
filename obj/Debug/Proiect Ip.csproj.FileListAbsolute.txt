@@ -25,3 +25,12 @@ C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiec
 C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.csproj.GenerateResource.cache
 C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.exe
 C:\Users\Ali-PC\Downloads\Proiect-IP-master-2\Proiect-IP-master\obj\Debug\Proiect Ip.pdb
+C:\Users\Marinel\Desktop\Proiect-IP\bin\Debug\Proiect Ip.exe.config
+C:\Users\Marinel\Desktop\Proiect-IP\bin\Debug\Proiect Ip.exe
+C:\Users\Marinel\Desktop\Proiect-IP\bin\Debug\Proiect Ip.pdb
+C:\Users\Marinel\Desktop\Proiect-IP\obj\Debug\Proiect Ip.csprojAssemblyReference.cache
+C:\Users\Marinel\Desktop\Proiect-IP\obj\Debug\Proiect_Ip.Form1.resources
+C:\Users\Marinel\Desktop\Proiect-IP\obj\Debug\Proiect_Ip.Properties.Resources.resources
+C:\Users\Marinel\Desktop\Proiect-IP\obj\Debug\Proiect Ip.csproj.GenerateResource.cache
+C:\Users\Marinel\Desktop\Proiect-IP\obj\Debug\Proiect Ip.exe
+C:\Users\Marinel\Desktop\Proiect-IP\obj\Debug\Proiect Ip.pdb
