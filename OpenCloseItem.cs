@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Autor: Ungureanu George
+ * Functionalitate: Mecanism adaugare functionalitati ad-hoc (mai multe obiecte cu operatiune simplista)
+ */
 namespace Proiect_Ip
 {
 

@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Autor: Iordan Alexandru
+ * Functionalitate: Invoker 
+ */
 namespace Proiect_Ip
 { // invoker
     class SimpleRemoteControl
@@ -11,7 +14,9 @@ namespace Proiect_Ip
 		internal Command slot; //butonul
 
 		public SimpleRemoteControl()
-		{}
+		{
+		
+		}
 
 		public virtual Command Command
 		{

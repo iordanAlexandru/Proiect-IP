@@ -8,7 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
-
+/*
+ * Autor: Iordan Alexandru + Ungureanu George
+ * Functionalitate: Implementare + design telecomanda
+ *  -> Ungureanu George: Idee + implementare functionalitate de a adauga mecanisme ad-hoc prin intermediul OpenCloseItem (clasa cu metode virtuale)
+ *  -> Iordan Alexandru: Implementare Command pe clasele specifice (light/stereo/garage)
+ */
 namespace Proiect_Ip
 {
     public partial class Form1 : Form
